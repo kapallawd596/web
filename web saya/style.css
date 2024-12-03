@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url(sakura.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  background: transparent; /* Membuat latar belakang header transparan */
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  opacity: 1;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  margin: 2rem;
+  background: rgba(222, 140, 181, 0.9); /* Tambahkan transparansi pada section */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
